@@ -32,6 +32,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -42,69 +44,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global Data Sharing-as-a-Service (DSaaS) market is valued at approximately **$3.97B to $4.2B** (with the privacy-focused data clean room subsegment representing ~$1.4B–$1.9B), expanding at an 18–21% CAGR. The sector is **moderately fragmented yet increasingly bifurcated**: core compute/storage-level zero-copy sharing exhibits winner-take-all dynamics concentrated among hyperscale cloud data platforms (Microsoft, AWS, Snowflake, Databricks), while privacy-enhancing clean rooms, independent commercial exchanges, and cross-party federation remain fragmented among specialized vendors (Dawex, Harbr, InfoSum, LiveRamp).
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Snowflake Data Sharing](https://www.snowflake.com/)**
-
-  **Native zero-copy data sharing** within Snowflake. **Direct Share**: share with any Snowflake account in the same region—no data duplication, no ETL; recipient uses their own compute and role-based access controls . **Reader Accounts**: provider provisions a Snowflake account for recipients without a subscription; limited by a consumption quota (e.g., 20 credits); compute costs bill to the provider . **Pricing**: Included with Snowflake; provider pays for reader account compute; Snowflake Marketplace listings can be paid with usage-based or subscription pricing . **Free tier**: Trial credits available. **Best for**: Snowflake customers wanting governed, zero-copy sharing within the Snowflake ecosystem—**trade-off**: direct shares are region-bound; reader accounts put compute costs on the provider.
-
-
-
-- **[Databricks Delta Sharing / OpenSharing](https://www.databricks.com/product/delta-sharing)**
-
-  **Open protocol for cross-platform data and AI asset sharing**, now evolved to **OpenSharing** under Linux Foundation governance . **Features**: Zero-copy sharing of tables (Delta Lake, Iceberg, Parquet), volumes, models, notebooks, and agent skills; **credential vending**—recipients access assets directly from the provider's storage via short-lived, scoped credentials; works across clouds (S3, ADLS, GCS, R2) and platforms; **Unity Catalog integration** for centralized governance; **Databricks Marketplace** for discovering data products; **Clean Rooms** for privacy-preserving collaboration . **Pricing**: Consumption-based (DBUs) for Databricks platform; OpenSharing protocol itself is Apache 2.0 and free. **Free tier**: Community Edition limited. **Best for**: Databricks customers and multi-platform organizations wanting vendor-neutral sharing of data and AI assets—**trade-off**: full managed experience requires Databricks; protocol adoption requires compatible clients.
-
-
-
-- **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)**
-
-  **Marketplace for third-party data products** with AWS billing integration. **Pricing models**: Fixed-fee subscription (dominant, most negotiable—20–40% off list via private offers), per-record/per-API-call, trial+subscription, and private offers . **EDP eligibility**: Annual fixed-fee subscriptions usually EDP-eligible; per-record often not . **Egress costs** can equal or exceed subscription fees for multi-TB products . **Free tier**: Trial products available; no permanent free tier. **Best for**: enterprises subscribing to multiple data providers wanting consolidated AWS billing and entitlement management—**trade-off**: egress economics frequently overlooked; EDP eligibility varies by product.
-
-
-
-- **[Azure Data Share](https://azure.microsoft.com/en-us/products/data-share)**
-
-  **Snapshot-based data sharing** within Azure. **Pricing**: Provider is billed for **Dataset Snapshot** (per dataset moved) and **Snapshot Execution** (vCores × duration, prorated by minute) . **Free tier**: Not specified. **Best for**: Azure-centric organizations wanting simple snapshot-based sharing to partners—**trade-off**: snapshot-based, not live/zero-copy; provider bears all costs.
-
-
-
-- **[Dawex](https://www.dawex.com/)**
-
-  **Data exchange platform** for monetizing and sharing data products. **Pricing models**: File-based (one-off or subscription), API Pull (per volume, per duration, per quota, or per unit), API Push (per access duration) . **Free tier**: Not specified. **Best for**: organizations wanting to monetize data products with flexible pricing models—**trade-off**: platform fees; enterprise-focused.
-
-
-
-- **[Harbr](https://www.harbrdata.com/)**
-
-  **Enterprise data exchange platform** for building custom-branded data marketplaces. **Features**: Connect any data source; convert to data products; granular access controls; secure collaboration workspaces; publish to custom-branded store . **Deployment**: Pairs your AWS/Azure/GCP VPC with Harbr's—you retain data, Harbr brings software . **Pricing**: Quote-only. **Free tier**: None. **Best for**: enterprises wanting a private, branded data exchange without building from scratch—**trade-off**: enterprise pricing; VPC integration required.
-
-
-
-- **[ThinkData Works (Namara)](https://www.thinkdataworks.com/)**
-
-  **Public data aggregation and standardization** platform. Namara standardizes, reformats, and enriches public data from 1,000+ sources and 100,000+ datasets . **Pricing**: Quote-only. **Free tier**: Not specified. **Best for**: organizations wanting curated public/alternative data—**note**: this is public data aggregation, not cross-organization private sharing.
-
-
-
-- **[LiveRamp Safe Haven](https://liveramp.com/)**
-
-  **Privacy-preserving data clean room** for collaboration. **APIs**: Job Management API for scheduling PySpark/BigQuery jobs; Cleanroom API, Datasets API, Exports API, and Flow Runs API . **Pricing**: Quote-only. **Free tier**: None. **Best for**: advertisers and publishers wanting privacy-safe data collaboration—**trade-off**: clean room, not a general data exchange.
-
-
-
-- **[InfoSum](https://www.infosum.com/)**
-
-  **Decentralized data collaboration** platform with **Beacons** deployed inside your Snowflake account. **Features**: Connect datasets across companies and clouds without moving raw data; vector-based matching; privacy-safe outputs; source data stays in your Snowflake account . **Pricing**: Free app + Snowflake infrastructure cost; requires InfoSum Platform account and Beacon license . **Free tier**: App is free; platform license required. **Best for**: enterprises wanting privacy-preserving matching without data movement—**trade-off**: requires InfoSum platform account; Snowflake-specific Beacon deployment.
-
-
-
-- **[Revelate](https://www.revelate.com/)**
-
-  **Self-serve data marketplace** for governed data product delivery within organizations. **Features**: Integrates with existing data platforms; package data, apply access controls, deliver to internal and external users; automates distribution workflows . **Pricing**: Quote-only; Gartner Peer Insights lists product details but no public pricing . **Free tier**: Not specified. **Best for**: organizations wanting an internal data marketplace with self-service access—**trade-off**: quote-only; smaller vendor.
-
-
+| Platform | Company Size (Revenue / Valuation) | Starting Pricing Tier | Free Tier Limits / Free Trial | Key Capabilities & Trade-offs |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Azure Data Share](https://azure.microsoft.com/en-us/products/data-share)** | **$3.1T+** Market Cap (Microsoft) | **$0.05 / dataset-snapshot** + **$0.50 / vCore-hour** execution (prorated by minute) | **30-Day Free Trial** with **$200 Azure credits**; includes access to 55+ always-free Azure services (standard Azure storage/compute charges apply after credits) | Snapshot-based sharing across Azure tenants. Provider pays all snapshot and compute costs; data is copied rather than queried via zero-copy. |
+| **[AWS Data Exchange](https://aws.amazon.com/data-exchange/)** | **$2.1T+** Market Cap (Amazon) | **3% fulfillment fee** on data transactions + **$0.04167/hour** per active data grant + S3 storage ($0.023/GB/mo) | **AWS Free Tier (12 months free / always-free limits)** plus provider-specific **free trial data products** (e.g., 7–30 day trial access to selected public/commercial datasets) | Cloud-native data marketplace integrated with AWS billing and EDP drawdowns. Egress fees can escalate on multi-TB products; private offers negotiable. |
+| **[Snowflake Data Sharing](https://www.snowflake.com/)** | **~$50B** Market Cap | **$2.00 / credit** (Standard Edition) to **$3.00 / credit** (Enterprise Edition) compute consumption | **30-Day Free Trial** with **$400 in free usage credits** (no permanent free tier; Reader Accounts allow recipients to query without paid subscriptions, billed to provider) | Native zero-copy data sharing without ETL or data movement. Reader accounts enable sharing with non-Snowflake customers but push compute expenses to provider. |
+| **[Databricks Delta Sharing / OpenSharing](https://www.databricks.com/product/delta-sharing)** | **$43B** Valuation / **$2.6B+ ARR** | **$0.07 / DBU** (Standard Plan) to **$0.55 / DBU** (Enterprise Jobs/Compute) | **14-Day Free Trial** on full cloud platform; **Databricks Community Edition** is free forever with 1 micro-cluster (15GB single node, Delta Sharing hosting excluded) | Open zero-copy sharing of tables, volumes, models, and agent skills via credential vending. Built on open OpenSharing protocol, managed via Unity Catalog. |
+| **[LiveRamp Safe Haven](https://liveramp.com/)** | **~$2.0B** Market Cap (NYSE: RAMP) / **~$750M ARR** | **$20,000 / year** (Standard Tier for <5M customer records and 1–3 destinations) | **No Free Tier or Self-Serve Trial**; evaluation requires a guided custom Proof of Concept (PoC) or guided interactive sandbox demo | Privacy-preserving enterprise data clean room and identity resolution engine for multi-party marketing and analytics. |
+| **[InfoSum](https://www.infosum.com/)** | **~$150M** Acquisition Value (WPP) / **~$10M–$15M ARR** | **~$3,000 / month** base platform contract (or private offer via AWS/GCP/Snowflake marketplaces) | **No Free Tier or Self-Serve Trial**; requires custom enterprise contract or proof-of-concept; Snowflake Native App Beacons free to deploy but require platform license | Decentralized data collaboration with Bunkers and Snowflake Beacons. Raw data never moves; privacy-safe vector matching across clouds. |
+| **[Harbr](https://www.harbrdata.com/)** | **~$169M** Valuation / **~$50M** Total Raised | **~$2,500 / month** ($30,000/yr starting enterprise pilot deployment) | **No Free Tier or Self-Serve Trial**; evaluation is restricted to custom private enterprise sandbox walkthroughs and sales demos | White-label data commerce and marketplace platform connecting existing VPCs; enables custom branded enterprise data exchanges. |
+| **[Revelate](https://www.revelate.com/)** | **~$100M–$150M** Est. Valuation / **~$10M–$20M ARR** | **~$2,000 / month** ($25,000/yr starting enterprise data distribution license) | **No Free Tier or Self-Serve Trial**; prospective buyers must request a custom platform demonstration and guided evaluation trial | Turnkey data marketplace and fulfillment engine (formerly TickSmith); automates external packaging and commercialization workflows. |
+| **[Dawex](https://www.dawex.com/)** | **~$50M–$80M** Est. Valuation / **~$9.6M ARR** | **~$1,500 / month** (€18,000/yr baseline private data exchange SaaS license) | **No Free Tier or Self-Serve Trial**; access is restricted to structured corporate demos and pilot evaluations | Enterprise data exchange software powering corporate and regional trusted data spaces complying with European Data Governance Act frameworks. |
+| **[ThinkData Works (Namara)](https://www.thinkdataworks.com/)** | **~$15M–$25M** Est. Valuation / **~$2.2M ARR** | **~$1,000 / month** ($12,000/yr starter data catalog & marketplace tier) | **No Free Tier or Self-Serve Trial**; offers personalized product walkthroughs and 14-day assisted enterprise trials upon qualification | Focuses on public/alternative data aggregation, cataloging, and automated enrichment across 100K+ external public sources. |
 
 ## Open-Source GitHub Projects
 
