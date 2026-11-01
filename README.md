@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Cross-Organization-Data-Sharing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cross-Organization-Data-Sharing?style=flat-square&logo=github" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Cross-Organization-Data-Sharing/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Cross-Organization-Data-Sharing?style=flat-square&logo=github" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cross-Organization-Data-Sharing/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Cross-Organization-Data-Sharing?style=flat-square&logo=github" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Cross-Organization-Data-Sharing/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -61,67 +61,67 @@ The sector is **moderately fragmented yet increasingly bifurcated**:
 
 Repositories are sorted in descending order of GitHub stargazers:
 
-1. ### **[OpenMined/PySyft](https://github.com/OpenMined/PySyft)** [![GitHub Stars](https://img.shields.io/github/stars/OpenMined/PySyft?style=social&color=white)](https://github.com/OpenMined/PySyft/stargazers)
+1. ### **[OpenMined/PySyft](https://github.com/OpenMined/PySyft)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenMined/PySyft?style=social&color=white)](https://github.com/OpenMined/PySyft/stargazers)
    - **Description**: A comprehensive open-source privacy-preserving framework for secure, multi-party data science and cross-organization data collaboration without moving or disclosing private data.
    - **Key Features**: Remote execution via privacy-preserving Domain and Network nodes; differential privacy; secure multi-party computation (SMPC); granular role-based approvals for data scientists across independent organizations.
    - **License**: Apache-2.0
    - **Best For**: Organizations, healthcare entities, and research groups executing joint analytics and model training without centralizing sensitive datasets.
 
-2. ### **[ckan/ckan](https://github.com/ckan/ckan)** [![GitHub Stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)
+2. ### **[ckan/ckan](https://github.com/ckan/ckan)** [![GitHub_Stars](https://img.shields.io/github/stars/ckan/ckan?style=social&color=white)](https://github.com/ckan/ckan/stargazers)
    - **Description**: The world’s leading open-source data management system (DMS) and data portal platform powering hundreds of national, regional, and inter-organizational public data exchanges.
    - **Key Features**: Comprehensive metadata cataloging; geospatial discovery; fine-grained access permissions; federated harvesting from external partner catalogs; extensive Python plugin architecture.
    - **License**: AGPL-3.0
    - **Best For**: Public sector bodies, non-profits, and inter-agency federations requiring production-grade public and semi-private data exchange infrastructure.
 
-3. ### **[secretflow/secretflow](https://github.com/secretflow/secretflow)** [![GitHub Stars](https://img.shields.io/github/stars/secretflow/secretflow?style=social&color=white)](https://github.com/secretflow/secretflow/stargazers)
+3. ### **[secretflow/secretflow](https://github.com/secretflow/secretflow)** [![GitHub_Stars](https://img.shields.io/github/stars/secretflow/secretflow?style=social&color=white)](https://github.com/secretflow/secretflow/stargazers)
    - **Description**: An industrial-grade unified framework for privacy-preserving data intelligence, federated learning, and cross-party secure computing.
    - **Key Features**: Privacy-preserving federated machine learning algorithms; trusted execution environment (TEE) integration; secure multi-party computation (MPC); confidential data clean room primitives.
    - **License**: Apache-2.0
    - **Best For**: Financial institutions, advertising ecosystems, and telecommunications enterprises requiring high-performance private multi-party computation.
 
-4. ### **[delta-io/delta-sharing](https://github.com/delta-io/delta-sharing)** [![GitHub Stars](https://img.shields.io/github/stars/delta-io/delta-sharing?style=social&color=white)](https://github.com/delta-io/delta-sharing/stargazers)
+4. ### **[delta-io/delta-sharing](https://github.com/delta-io/delta-sharing)** [![GitHub_Stars](https://img.shields.io/github/stars/delta-io/delta-sharing?style=social&color=white)](https://github.com/delta-io/delta-sharing/stargazers)
    - **Description**: The foundational open-source protocol and reference server implementation for secure zero-copy sharing of large datasets across cloud storage providers.
    - **Key Features**: Direct cloud credential vending (S3, ADLS, GCS); native connector support for pandas, Apache Spark, Power BI, and Rust; open REST API specification for tabular data products.
    - **License**: Apache-2.0
    - **Best For**: Teams maintaining existing Delta Lake environments seeking standard REST-based zero-copy data distribution to external partners.
 
-5. ### **[magda-io/magda](https://github.com/magda-io/magda)** [![GitHub Stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)
+5. ### **[magda-io/magda](https://github.com/magda-io/magda)** [![GitHub_Stars](https://img.shields.io/github/stars/magda-io/magda?style=social&color=white)](https://github.com/magda-io/magda/stargazers)
    - **Description**: Cloud-native, Kubernetes-based federated data catalog system designed for automated cross-agency and inter-organizational dataset discovery.
    - **Key Features**: Automated metadata harvesting from disparate organizational portals (CKAN, CSW, OpenDataSoft); Open Policy Agent (OPA) integration for authorization; rich web UI for data consumer discovery.
    - **License**: Apache-2.0
    - **Best For**: Large federations, governments, and enterprise conglomerates establishing unified discovery across decentralized business units.
 
-6. ### **[eclipse-edc/Connector](https://github.com/eclipse-edc/Connector)** [![GitHub Stars](https://img.shields.io/github/stars/eclipse-edc/Connector?style=social&color=white)](https://github.com/eclipse-edc/Connector/stargazers)
+6. ### **[eclipse-edc/Connector](https://github.com/eclipse-edc/Connector)** [![GitHub_Stars](https://img.shields.io/github/stars/eclipse-edc/Connector?style=social&color=white)](https://github.com/eclipse-edc/Connector/stargazers)
    - **Description**: Eclipse Dataspace Components (EDC) provides the reference open-source implementation of the Dataspace Protocol for secure, sovereign B2B data sharing.
    - **Key Features**: Decentralized identity (DID / Verifiable Credentials) trust validation; automated contract negotiation and contract agreement lifecycle; policy enforcement at transfer time; native cloud data plane transfer drivers (S3, Azure Blob).
    - **License**: Apache-2.0
    - **Best For**: European and international enterprises building sovereign data spaces complying with Gaia-X and the EU Data Act.
 
-7. ### **[OpenSharing-IO/OpenSharing](https://github.com/OpenSharing-IO/OpenSharing)** [![GitHub Stars](https://img.shields.io/github/stars/OpenSharing-IO/OpenSharing?style=social&color=white)](https://github.com/OpenSharing-IO/OpenSharing/stargazers)
+7. ### **[OpenSharing-IO/OpenSharing](https://github.com/OpenSharing-IO/OpenSharing)** [![GitHub_Stars](https://img.shields.io/github/stars/OpenSharing-IO/OpenSharing?style=social&color=white)](https://github.com/OpenSharing-IO/OpenSharing/stargazers)
    - **Description**: Linux Foundation AI & Data open protocol standard for zero-copy sharing of tables, unstructured file volumes, machine learning models, and AI agent skills.
    - **Key Features**: Vendor-neutral open protocol; credential vending across AWS S3, Azure ADLS, GCP Cloud Storage, and Cloudflare R2; multi-format support (Parquet, Delta Lake, Apache Iceberg); first-class sharing schema for AI AgentSkills and models.
    - **License**: Apache-2.0
    - **Best For**: Modern multi-platform data and AI teams building vendor-neutral sharing architectures across independent clouds.
 
-8. ### **[FIWARE/data-space-connector](https://github.com/FIWARE/data-space-connector)** [![GitHub Stars](https://img.shields.io/github/stars/FIWARE/data-space-connector?style=social&color=white)](https://github.com/FIWARE/data-space-connector/stargazers)
+8. ### **[FIWARE/data-space-connector](https://github.com/FIWARE/data-space-connector)** [![GitHub_Stars](https://img.shields.io/github/stars/FIWARE/data-space-connector?style=social&color=white)](https://github.com/FIWARE/data-space-connector/stargazers)
    - **Description**: Open-source connector bridging FIWARE Smart Data Models and NGSI-LD context brokers with the Eclipse Dataspace Components (EDC) standard.
    - **Key Features**: Sovereign cross-organization exchange of real-time IoT and context data; contract negotiation and policy control; turn-key integration with European data space architectures.
    - **License**: Apache-2.0
    - **Best For**: Smart cities, smart agriculture, and IoT manufacturing consortia exchanging contextualized live operational telemetry.
 
-9. ### **[Fraunhofer-AISEC/trusted-connector](https://github.com/Fraunhofer-AISEC/trusted-connector)** [![GitHub Stars](https://img.shields.io/github/stars/Fraunhofer-AISEC/trusted-connector?style=social&color=white)](https://github.com/Fraunhofer-AISEC/trusted-connector/stargazers)
+9. ### **[Fraunhofer-AISEC/trusted-connector](https://github.com/Fraunhofer-AISEC/trusted-connector)** [![GitHub_Stars](https://img.shields.io/github/stars/Fraunhofer-AISEC/trusted-connector?style=social&color=white)](https://github.com/Fraunhofer-AISEC/trusted-connector/stargazers)
    - **Description**: Reference implementation of the International Data Spaces (IDS) connector architecture with hardware-rooted remote attestation and dynamic usage control.
    - **Key Features**: Trusted execution environment (TEE) and TPM hardware integration; IDSCP2 secure communication protocol; Camel routing engine with real-time policy enforcement.
    - **License**: Apache-2.0
    - **Best For**: Edge computing and industrial IoT environments demanding hardware-verified execution and sovereign cross-enterprise data governance.
 
-10. ### **[International-Data-Spaces-Association/ids-specification](https://github.com/International-Data-Spaces-Association/ids-specification)** [![GitHub Stars](https://img.shields.io/github/stars/International-Data-Spaces-Association/ids-specification?style=social&color=white)](https://github.com/International-Data-Spaces-Association/ids-specification/stargazers)
+10. ### **[International-Data-Spaces-Association/ids-specification](https://github.com/International-Data-Spaces-Association/ids-specification)** [![GitHub_Stars](https://img.shields.io/github/stars/International-Data-Spaces-Association/ids-specification?style=social&color=white)](https://github.com/International-Data-Spaces-Association/ids-specification/stargazers)
     - **Description**: The foundational Dataspace Protocol specifications defining schemas, interaction flows, and usage control models for interoperable cross-organization data exchange.
     - **Key Features**: Catalog protocol, contract negotiation protocol, and transfer process protocol definitions based on open W3C standards (DCAT, ODRL, JSON-LD).
     - **License**: Apache-2.0
     - **Best For**: Architects, standard bodies, and developers implementing interoperable connectors for sovereign data spaces.
 
-11. ### **[tiktok-privacy-innovation/PrivacyGo-DataCleanRoom](https://github.com/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom)** [![GitHub Stars](https://img.shields.io/github/stars/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom?style=social&color=white)](https://github.com/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom/stargazers)
+11. ### **[tiktok-privacy-innovation/PrivacyGo-DataCleanRoom](https://github.com/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom)** [![GitHub_Stars](https://img.shields.io/github/stars/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom?style=social&color=white)](https://github.com/tiktok-privacy-innovation/PrivacyGo-DataCleanRoom/stargazers)
     - **Description**: An open-source confidential cloud data clean room framework leveraging Trusted Execution Environments (TEEs) such as Google Confidential Space.
     - **Key Features**: Multi-party cryptographic attestation; isolated notebook-based collaboration; policy verification ensuring raw partner data cannot be accessed or exfiltrated by any participant.
     - **License**: Apache-2.0
@@ -135,7 +135,7 @@ We welcome community contributions! To add a new platform or open-source framewo
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 📝 **Add or update entries** in `README.md` following the established tabular or list formats.
-3. 🔍 **Verify details**: Include verifiable pricing/valuation info for SaaS platforms or star badge links, license, and repo descriptions for open-source tools.
+3. 🔍 **Verify details**: Include verifiable pricing/valuation info for SaaS platforms or Stars_Badge links, license, and repo descriptions for open-source tools.
 4. 🚀 **Submit a Pull Request** with a concise description of your additions.
 
 ---
